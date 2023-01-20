@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    // "lib": [
+    //   "dom",
+    //   "dom.iterable",
+    //   "esnext"
+    // ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "lib": [
+      "es6",
+      "dom",
+      "esnext"
+    ],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/index.tsx",
+    "Components/Fields/Submit.tsx",
+    "Components/Contact/Contact.tsx",
+    "Components/Login/Login.tsx"
+, "Components/Fields/LoginBtn.tsx", "pages/books/[category].tsx", "Components/Context/UserContext.tsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
